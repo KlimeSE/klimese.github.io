@@ -1,0 +1,53 @@
+{
+  "name": "LogiWaze",
+  "version": "1.0.0",
+  "description": "Foxhole Map Router",
+  "repository": "https://github.com/NoUDerp/logiwaze",
+  "homepage": "https://www.logiwaze.com/",
+  "main": "src/index.js",
+  "directories": {},
+  "scripts": {
+    "build": "sh ./scripts/build.sh",
+    "debug": "sh ./scripts/debug.sh"
+  },
+  "author": "Derp",
+  "license": "MIT",
+  "dependencies": {
+    "@sakitam-gis/kriging": "*",
+    "@turf/distance": "^6.0.1",
+    "@turf/explode": "^5.1.0",
+    "@zuzak/owo": "^1.15.0",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "file-saver": "*",
+    "geo2svg": "^1.0.3",
+    "intersects": "*",
+    "jquery": "*",
+    "jquery-ui": "*",
+    "json-loader": "^0.5.7",
+    "leaflet": "^1.5",
+    "leaflet-routing-machine": "^3.2.12",
+    "ndjson-cli": "^0.3.1",
+    "path": "^0.12.7",
+    "point-in-polygon": "*",
+    "superagent": "*",
+    "tap": "^12.0.0",
+    "tap-spec": "^5.0.0",
+    "tinyqueue": "^2.0.0",
+    "turf-point": "^2.0.1",
+    "uwu": "^42.0.0",
+    "uwuifier": "^4.0.5",
+    "uwuify2": "^1.0.1",
+    "webpack-node-externals": "^3.0.0",
+    "yargs": "*",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "jq": "*",
+    "make": "*",
+    "sharp": "^0.32.4",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
